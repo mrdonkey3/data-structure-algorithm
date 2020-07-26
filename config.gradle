@@ -1,0 +1,14 @@
+ext {
+
+    versionCode = [
+            kotlin: "1.3.61",
+            junit : "4.12",
+            jdk   : "1.8"
+    ]
+    dependencies = [
+            "kotlin": "org.jetbrains.kotlin:kotlin-stdlib-jdk8:${versionCode.kotlin}",
+            "junit" : "junit:junit:${versionCode.junit}"
+    ]
+
+
+}
